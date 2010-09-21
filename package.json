@@ -1,15 +1,15 @@
 { "name": "markdown-wiki"
 , "version": "0.0.1"
 , "description": "A Bidirectional WikiText to Markdown converter."
-, "homepage": "http://github.com/Gozala/wiky2markdown/"
+, "homepage": "http://github.com/Gozala/markdown-wiki/"
 , "keywords": ["wiki", "wikitext", "html", "markdown", "converter"]
 , "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)"
 , "contributors": [ "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)" ]
 , "repository":
   { "type": "git"
-  , "url": "git://github.com/Gozala/wiky2markdown.git"
+  , "url": "git://github.com/Gozala/markdown-wiki.git"
   }
-, "bugs": { "web": "http://github.com/Gozala/wiky2markdown/issues/" }
+, "bugs": { "web": "http://github.com/Gozala/markdown-wiki/issues/" }
 , "directories":
   { "doc": "./doc"
   , "man": "./man"
