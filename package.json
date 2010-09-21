@@ -1,0 +1,32 @@
+{ "name": "wiky2markdown"
+, "version": "0.0.1"
+, "description": "A Bidirectional WikiText to Markdown converter."
+, "homepage": "http://github.com/Gozala/wiky2markdown/"
+, "keywords": ["wiki", "wikitext", "html", "markdown", "converter"]
+, "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)"
+, "contributors": [ "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)" ]
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/Gozala/wiky2markdown.git"
+  }
+, "bugs": { "web": "http://github.com/Gozala/wiky2markdown/issues/" }
+, "directories":
+  { "doc": "./doc"
+  , "man": "./man"
+  , "lib": "./lib"
+  }
+, "dependencies":
+  {
+    "node-markdown": ">=0.1.0",
+    "wiky": ">=0.95.1"
+  }
+, "main": "./lib/wiky2markdown"
+, "bin" : { "wiky2markdown" : "./bin/wiky2markdown" }
+, "engines": { "node": ">=0.1.103" }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/isaacs/npm/raw/master/LICENSE"
+    }
+  ]
+}
+
