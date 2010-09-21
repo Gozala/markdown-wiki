@@ -1,4 +1,4 @@
-{ "name": "wiky2markdown"
+{ "name": "markdown-wiki"
 , "version": "0.0.1"
 , "description": "A Bidirectional WikiText to Markdown converter."
 , "homepage": "http://github.com/Gozala/wiky2markdown/"
@@ -20,8 +20,8 @@
     "node-markdown": ">=0.1.0",
     "wiky": ">=0.95.1"
   }
-, "main": "./lib/wiky2markdown"
-, "bin" : { "wiky2markdown" : "./bin/wiky2markdown" }
+, "main": "./lib/markdown-wiki"
+, "bin" : { "markdown2wiki" : "./bin/markdown2wiki" }
 , "engines": { "node": ">=0.1.103" }
 , "licenses" :
   [ { "type" : "MIT"

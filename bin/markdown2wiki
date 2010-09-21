@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+// vim:ft=javascript
+
+var markdown2wiky = require('markdown-wiki').markdown2wiki
+  , stdin = process.openStdin()
+
+stdin.setEncoding('utf8')
+stdin.on('data', function (data) {
+  process.stdout.write((markdown2wiky(data)))
+})
+
