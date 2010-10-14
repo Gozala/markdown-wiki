@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>TaskHub</title>
+        <link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
+        <script type="text/javascript" src="../teleport/lib/teleport.js"></script>
+    </head>
+    <body>
+        <script>
+            require.Sandbox({
+                global: window,
+                catalog:
+                { "wiky":
+                  { path: "../wiky/"
+                  , main: "./lib/wiky.js"
+                  }
+                , "markdown-wiki":
+                  { path: ""
+                  , main: "./lib/markdown-wiki.js"
+                  }
+                , "markdown":
+                  { path: "../markdown/", main: "./lib/markdown.js" }
+                , "app":
+                  { path: "demo/"
+                  , directories: { lib: '' }
+                  , main: "./main.js"
+                  }
+                },
+            }).main("app");
+        </script>
+        <div id="main">
+        </div>
+          <strong>Markdown</strong>
+          <textarea id="stdin" style="width:98%" rows="17"></textarea>
+          <strong>Wiki<strong>
+          <textarea id="stdout" style="width:98%" rows="17"></textarea>
+        <div>
+            <div class="ribbon">
+            <a target="_blank" href="https://github.com/Gozala/taskhub">Fork me on GitHub</a>
+        </div>
+    </body>
+</html>
