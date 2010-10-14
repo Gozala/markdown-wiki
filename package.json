@@ -1,5 +1,5 @@
 { "name": "markdown-wiki"
-, "version": "0.0.1"
+, "version": "0.0.2"
 , "description": "A Bidirectional WikiText to Markdown converter."
 , "homepage": "http://github.com/Gozala/markdown-wiki/"
 , "keywords": ["wiki", "wikitext", "html", "markdown", "converter"]
@@ -17,7 +17,7 @@
   }
 , "dependencies":
   {
-    "node-markdown": ">=0.1.0",
+    "markdown": ">=0.1.0",
     "wiky": ">=0.95.1"
   }
 , "main": "./lib/markdown-wiki"
