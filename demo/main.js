@@ -39,7 +39,7 @@ function main() {
   var request = new XMLHttpRequest()
   request.open('GET', 'resources/markdown.xsl', true)
   request.onreadystatechange = function() {
-    console.log(request)
+    request.overrideMimeType('text/xml')
     if (request.readyState = 4 && (request.status == 0 || request.status == 200)) {
       xsltProcessor = new XSLTProcessor()
       xsltProcessor.importStylesheet(request.responseXML)
